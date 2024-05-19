@@ -1,60 +1,66 @@
-<html>
-<head> 
-	<title> E-Commerce Store </title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> E-Commerce Store </title>
+    <link rel="stylesheet" href="exstyle.css">
 </head>
-<link rel = "stylesheet" href = "style.css">
-	
-<body>
-<div class = "header2">
-	<nav>
-		<a href = "Home.html"> Home </a>
-		<a href = "Products.html">  Products </a>
-		<a href = "AboutUs.html">  About Us </a>
-		<a href = "ContactUs.html">  Contact Us </a>
-	</nav>
-</div>
-<div class="logo">
-	<a href="index.html">
-		<img src="textlogo.png" alt="Armario Logo">
-	</a>
-</div>
-<div class = "search">
-	<input type = "search" placeholder="Search..." style = "width: 170px; height: 35px;">
-</div>
-<div class = "header"><h1> About Us </h1></div>
-<h3><center> We are a small company that promotes different type of clothing style. We focus on simplicity and uniqueness of the things we sell <br>
-with the use of our imagination. The reason why we promote simplicity is because just like technology in the inside it keeps getting <br> 
-complicated but in the outside in looks very simple. So we thought we should also apply this in selling clothes because as time pass <br>
-by different trends will pop up and this makes people very intrigue to try something new.</center></h3>
 
-<img src = "WebLogo.png" style = "width: 500px; height: 500px; margin: -50 100px; alt="picture">
-<div class ="box" style = "margin: -360 660px;"></div>
-<h3><p style = "padding-left: 700px; margin: -350 0px;"> Facebook: </h3></p>
-<a href = "https://www.facebook.com/avennash.aterrado"><p style = "padding-left: 700px; margin: 360 0px;">https://www.facebook.com/avennash.aterrado</a></p>
-<h3><p style = "padding-left: 700px; margin: -310 0px;"> Instagram: </h3></p>
-<a href = "https://www.instagram.com/eivehnn/"><p style = "padding-left: 700px; margin: 320 0px;">https://www.instagram.com/eivehnn/</a></p>
-<h3><p style = "padding-left: 700px; margin: -270 0px;"> Discord: </h3></p>
-<p style = "padding-left: 700px; margin: 280 0px;">Neffex_0#9797</a></p>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <a href="index.html">
+                <img class="header__logo-img" src="textlogo.png" alt="Armario Logo">
+            </a>
+        </div>
+        <nav class="header__nav">
+            <a href="Home.html">Home</a>
+            <a href="Products.html">Products</a>
+            <a href="AboutUs.html">About Us</a>
+            <a href="ContactUs.html">Contact Us</a>
+	    <a href="checkout.html">Checkout</a>
+        </nav>
+        <div class="header__search">
+            <input class="header__search-input" type="search" placeholder="Search...">
+        </div>
+    </header>
+    <center><h1>About Us</h1></center>
+    <h3 class="about-text"><center>I'm just a normal person like any other people. I came up with the idea to promote a clothing website because i want to share <br>
+	to other people the styles i want. I focus on simplicity rather than dressing extravagant. nowadays there's so much theme of clothes<br> 
+	you can copy and some of them are just too much. I also try to keep up with the trends like this polo's im promoting. They look nice, <br>
+	tidy and professional. The reason why i also choose a clothing website is because no matter what era or time different <br>
+	trends will pop up and this will make people very intrigued to try something new. </center></h3>
+
+    <img class="web" src="me.jpg" alt="Web Logo">
+		<div class="box">
+			<h3 class="contact-label">Facebook:</h3>
+			<a class="contact-link" href="https://www.facebook.com/avennash.aterrado">https://www.facebook.com/avennash.aterrado</a>
+			<h3 class="contact-label">Instagram:</h3>
+			<a class="contact-link" href="https://www.instagram.com/eivehnn/">https://www.instagram.com/eivehnn/</a>
+			<h3 class="contact-label">Twitter:</h3>
+			<a class="contact-link" href="https://x.com/Eivenash">https://x.com/Eivenash</a>
+			<h3 class="contact-label">Discord:</h3>
+			<p class="contact-value">Neffex_0#9797</p>
+		</div>
 </body>
 <table>
-	<tr>
-		<td><h2><p style = "margin-left: 250px;">  Product Video </h2></p>
-		<td><h2><p style = "margin-left: 500px;"> Product Audio </h2></p>
-	</tr>
+    <tr>
+        <td><h2 class="table-heading">Product Video</h2></td>
+        <td><h2 class="table-heading">Product Audio</h2></td>
+    </tr>
 </table>
 <table>
-	<tr>
-		<td><iframe width="750" height="480" style="margin-left:20px;" src="https://www.youtube.com/embed/7yYLZUEmhFY" title="Zara Man - Denim brights" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><td>
+    <tr>
+        <td><iframe width="750" height="480" class="video-frame" src="https://www.youtube.com/embed/7yYLZUEmhFY" title="Zara Man - Denim brights" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
 		<td><audio controls>
-			<source src="Audio.mp3" type="audio/mp3"><
-			Your browser does not support the audio tag.
-			</audio></p></td>
-	</tr>
+            <source src="music.mp3" type="audio/mp3">
+            Your browser does not support the audio tag.
+            </audio></td>
+    </tr>
 </table>
 <br>
 <footer>
-	<div class = "footer">
-		<h3> © 2024 Armario. All Rights Reserved. </h3>
-	</div>
+    <div class="footer">
+        <h3>© 2024 Armario. All Rights Reserved.</h3>
+    </div>
 </footer>
 </html>
